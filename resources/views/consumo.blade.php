@@ -12,7 +12,12 @@
         <div class="painel">
             <h2>Instruções</h2>
             <div class="conteudo-painel">
-                <p>Esta aplicação tem como finalidade demonstrar os valores que serão gastos com combustível durante uma viagem, com base no consumo do seu veículo e com a distância determinada por você!</p>
+                <p>Esta aplicação tem como finalidade demonstrar os valores que serão gastos 
+                    com combustível durante uma viagem, com base no consumo do seu veículo
+                     e com a distância determinada por você!</p>
+                 <ul>
+                    <li><b>Gasolina: R$ 4,99</b></li>
+                 </ul>    
             </div>
         </div>
 
@@ -20,21 +25,11 @@
             <h2>Cáculo do valor (R$) do consumo</h2>
             <div class="conteudo-painel">
                 <form action="{{url('/gasto')}}" method="get">
-                    <label for="combustivel">Combustível</label>
-                    <select name="combustivel">
-                        <option value="Gasolina" selected>Gasolina</option>
-                        <option value="Etanol">Etanol</option>
-                        <option value="Diesel">Diesel</option>
-                    </select>
-                    <br/>
-                    <label for="valorcombustivel">Valor</label>
-                    <input name="valorcombustivel" type="number" step="0.01" required/>
-                    <br/>
                     <label for="distancia">Distância em quilometros a ser percorrida</label>
-                    <input type="number" class="campoTexto" step="0.1" name="distancia" required/>
-                    <br/>
+                    <input type="number" class="campoTexto"name="distancia" required/>
+
                     <label for="autonomia">Consumo de combustível do veículo (km/l)</label>
-                    <input type="number" class="campoTexto" name="autonomia" required step="0.01"/>
+                    <input type="number" class="campoTexto"name="autonomia" required step="0.01"/>
 
                     <button class="botao" type="submit">Calcular</button>
                 </form>
