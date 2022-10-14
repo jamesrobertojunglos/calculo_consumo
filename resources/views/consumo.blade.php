@@ -14,10 +14,7 @@
             <div class="conteudo-painel">
                 <p>Esta aplicação tem como finalidade demonstrar os valores que serão gastos 
                     com combustível durante uma viagem, com base no consumo do seu veículo
-                     e com a distância determinada por você!</p>
-                 <ul>
-                    <li><b>Gasolina: R$ 4,99</b></li>
-                 </ul>    
+                     e com a distância determinada por você!</p>   
             </div>
         </div>
 
@@ -25,6 +22,11 @@
             <h2>Cáculo do valor (R$) do consumo</h2>
             <div class="conteudo-painel">
                 <form action="{{url('/gasto')}}" method="get">
+                    <label for="combustivel">Cobustível</label>
+                    <selct name="combustivel">
+                        <option value="Gasolina"selected>Gasolina</option>
+                        <option value="Etanol"
+                    </selct>
                     <label for="distancia">Distância em quilometros a ser percorrida</label>
                     <input type="number" class="campoTexto"name="distancia" required/>
 
