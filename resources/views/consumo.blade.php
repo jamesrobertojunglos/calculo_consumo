@@ -27,7 +27,7 @@
                         <option value="Gasolina"selected>Gasolina</option>
                         <option value="Etanol"selected>"Etanol"</option>
                         <option value="Diesel"selected>"Diesel"</option>
-                    </selct>
+                    </select>
                     
                     <label for="valorcombustivel">Valor</label>
                     <input type="number" class="campoTexto" name="valorcombustivel"  required/>
