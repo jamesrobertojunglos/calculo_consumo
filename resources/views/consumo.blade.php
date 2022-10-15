@@ -14,7 +14,7 @@
             <div class="conteudo-painel">
                 <p>Esta aplicação tem como finalidade demonstrar os valores que serão gastos 
                     com combustível durante uma viagem, com base no consumo do seu veículo
-                     e com a distância determinada por você!</p>   
+                     e com a distância determinada por você!!!!</p>   
             </div>
         </div>
 
@@ -23,11 +23,11 @@
             <div class="conteudo-painel">
                 <form action="{{url('/gasto')}}" method="get">
                     <label for="combustivel">Combustível</label>
-                    <selct name="combustivel">
+                    <select name="combustivel">
                         <option value="Gasolina"selected>Gasolina</option>
                         <option value="Etanol"selected>"Etanol"</option>
                         <option value="Diesel"selected>"Diesel"</option>
-                    </selct>
+                    </select>
                     
                     <label for="valorcombustivel">Valor</label>
                     <input type="number" class="campoTexto" name="valorcombustivel"  required/>
