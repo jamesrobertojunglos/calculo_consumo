@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class CalculoDeCombustivel extends Model
 {
     use HasFactory;
+    
     public function calcular() {
         
         $distancia = $_GET['distancia'];
