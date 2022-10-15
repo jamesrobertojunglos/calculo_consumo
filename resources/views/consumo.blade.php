@@ -14,7 +14,7 @@
             <div class="conteudo-painel">
                 <p>Esta aplicação tem como finalidade demonstrar os valores que serão gastos 
                     com combustível durante uma viagem, com base no consumo do seu veículo
-                     e com a distância determinada por você!</p>   
+                     e com a distância determinada por você.</p>   
             </div>
         </div>
 
@@ -32,7 +32,7 @@
                     <label for="valorcombustivel">Valor</label>
                     <input type="number" class="campoTexto" name="valorcombustivel"  required/>
                     <label for="distancia">Distância em quilometros a ser percorrida</label>
-                    <input type="number" class="campoTexto" name="distancia" required/>
+                    <input type="number"/> class="campoTexto" name="distancia" required/>
 
                     <label for="autonomia">Consumo de combustível do veículo (km/l)</label>
                     <input type="number" class="campoTexto"name="autonomia" required step="0.01"/>
