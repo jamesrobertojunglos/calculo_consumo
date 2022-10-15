@@ -25,17 +25,18 @@
                     <label for="combustivel">Combustível</label>
                     <select name="combustivel">
                         <option value="Gasolina"selected>Gasolina</option>
-                        <option value="Etanol"selected>"Etanol"</option>
-                        <option value="Diesel"selected>"Diesel"</option>
+                        <option value="Etanol"selected>Etanol</option>
+                        <option value="Diesel"selected>Diesel</option>
                     </select>
-                    
+                    <br/>
                     <label for="valorcombustivel">Valor</label>
-                    <input type="number" class="campoTexto" name="valorcombustivel"  required/>
+                    <input name="valorcombustivel" type="number" step="0.01" required/>
+                    <br/>
                     <label for="distancia">Distância em quilometros a ser percorrida</label>
-                    <input type="number"/> class="campoTexto" name="distancia" required/>
-
+                    <input type="number"/> class="campoTexto" step="0.1" name="distancia" required/>
+                    <br/>
                     <label for="autonomia">Consumo de combustível do veículo (km/l)</label>
-                    <input type="number" class="campoTexto"name="autonomia" required step="0.01"/>
+                    <input type="number" class="campoTexto" name="autonomia" required step="0.01"/>
 
                     <button class="botao" type="submit">Calcular</button>
                 </form>

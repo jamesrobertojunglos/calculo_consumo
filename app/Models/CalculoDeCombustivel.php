@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class CalculoDeCombustivel extends Model
-{
+{,,,,,
     use HasFactory;
     
     public function calcular() {
