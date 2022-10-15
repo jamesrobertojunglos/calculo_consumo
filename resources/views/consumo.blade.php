@@ -23,11 +23,11 @@
             <div class="conteudo-painel">
                 <form action="{{url('/gasto')}}" method="get">
                     <label for="combustivel">Combustível</label>
-                    <selct name="combustivel">
+                    <select name="combustivel">
                         <option value="Gasolina"selected>Gasolina</option>
-                        <option value="Etanol"selected>"Etanol"</option>
-                        <option value="Diesel"selected>"Diesel"</option>
-                    </selct>
+                        <option value="Etanol"selected>Etanol</option>
+                        <option value="Diesel"selected>Diesel</option>
+                    </select>
                     
                     <label for="valorcombustivel">Valor</label>
                     <input type="number" class="campoTexto" name="valorcombustivel"  required/>
